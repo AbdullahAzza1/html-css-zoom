@@ -20,16 +20,67 @@ img{
 }
 .cont{
     display: flex;
-    width: calc(100% / 7);    
-    
+    width: calc(100% / 7); 
+    margin-bottom: 10px;     
 }
 .contain{
     margin: 0 auto;
     width: 80%;
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
 }
 .user{
-    position: fixed;
-	bottom: 545px;
+    position: absolute;
+	margin-top: 82px;
     background-color: rgb(121, 121, 121, 0.6);
+}
+.special{
+    background-color: rgb(121, 121, 121, 0.6);
+    width: 18px;
+    height: 29px;
+    border-top-left-radius: 8px;
+    border-end-start-radius: 8px;
+}
+.menu{
+    background-color: rgb(121, 121, 121, 0.6);
+    margin-right: 5px;
+    padding: 5px;
+    border-top-right-radius: 8px;
+    border-end-end-radius: 8px;
+}
+.menu1{
+    background-color: #79797999;
+    padding: 5px;
+    height: 29px;
+    border-radius: 8px;
+}
+.opzioni{
+    background-color:  rgb(54, 54, 58);
+    display: flex;
+    justify-content: space-between;
+}
+.micro{
+    height: 45px;
+    margin: 10px;
+    color: aliceblue;
+}
+.sinistra{
+    padding: 10px;
+    display: flex;
+}
+.centro{
+    padding: 10px;
+    display: flex;
+}
+.destra{
+    padding: 10px;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+}
+.end{
+    color:red;
+    
+    
 }
