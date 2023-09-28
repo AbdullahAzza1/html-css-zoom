@@ -20,9 +20,16 @@ img{
 }
 .cont{
     display: flex;
-    width: calc(100% / 7);
+    width: calc(100% / 7);    
+    
 }
 .contain{
     margin: 0 auto;
     width: 80%;
+    
+}
+.user{
+    position: fixed;
+	bottom: 545px;
+    background-color: rgb(121, 121, 121, 0.6);
 }
